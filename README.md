@@ -9,24 +9,21 @@ Este proyecto nace con el objetivo de realizar un análisis de los principales i
 II. Metodología: 
 -Para este análisis, construí un ecosistema de datos que garantiza limpieza y escalabilidad:
 
--SQL Server: Procesamiento ETL, ingeniería de variables y lógica de segmentación avanzada.
+  -SQL Server: Procesamiento ETL, ingeniería de variables y lógica de segmentación avanzada.
 
--Power BI: Visualización interactiva y creación de KPIs financieros.
+  -Power BI: Visualización interactiva y creación de KPIs financieros.
 
--Aplicación de Quintiles de Producción para normalizar la comparación entre empresas de distintos tamaños.
+  -En lugar de comparar empresas por número de empleados, las clasifiqué por el valor de la producción anual de las  empresas. Usé Window Functions (SUM() OVER) para dividir el sector en 5 grupos iguales (quintiles).
 
-Desafíos Técnicos y Soluciones
-1. Limpieza de Datos (Data Wrangling)
-Los datos crudos del censo venían con estructuras jerárquicas y filas de totales que ensuciaban el análisis. Implementé Vistas en SQL para:
+III. Desafíos Técnicos y Soluciones1. 
 
-Eliminar ruido y filas de encabezados importadas.
+Limpieza de Datos (Data Wrangling). Los datos crudos del censo venían con estructuras jerárquicas y filas de totales que ensuciaban el análisis. Implementé Vistas en SQL para:
 
-Estandarizar valores nulos y tipos de datos mediante TRY_CAST.
+  -Eliminar ruido y filas de encabezados importadas.
 
-Aislar el código SCIAN 484 (Autotransporte de carga).
+  -Estandarizar valores nulos y tipos de datos mediante TRY_CAST.
 
-III. Análisis sobre la Lógica de Sector
-En lugar de comparar empresas por número de empleados, las clasifiqué por el valor de la p´roducción anual de las empresas. Usando Window Functions (SUM() OVER), dividí el sector en 5 grupos iguales (quintiles). 
+  -Aislar el código SCIAN 484 (Autotransporte de carga).
 
 IV. INSIGHTS
 -El Quintil 5 (el 20% más productivo) no siempre son las empresas más grandes, sino las que mejor optimizan sus activos.
