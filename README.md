@@ -3,7 +3,7 @@ Análisis de la Productividad y Eficiencia: Sector Autotransporte de Carga (Méx
 
 I. Introducción
 
-El autotransporte de carga es uno de los sectore clave para el crecimiento sostenido de economía mexicana, representando aproximadamente 4% del PIB nacional de acuerdo con datos de 2025. Sin embargo, es un sector fragmentado donde conviven desde micro-empresas familiares hasta grandes consorcios logísticos.
+El autotransporte de carga es uno de los sectores clave para el crecimiento sostenido de economía mexicana, representando aproximadamente 4% del PIB nacional de acuerdo con datos de 2025. Sin embargo, es un sector fragmentado donde conviven desde micro-empresas familiares hasta grandes consorcios logísticos.
 
 Este proyecto nace con el objetivo de realizar un análisis de los principales indicadores de eficiencia económica del sector. Mediante el procesamiento de los datos de los Censos Económicos 2024 (INEGI), diseñé una metodología para segmentar a más de 30,000 unidades económicas y entender quiénes son realmente productivos y dónde se concentran sus costos.
 
