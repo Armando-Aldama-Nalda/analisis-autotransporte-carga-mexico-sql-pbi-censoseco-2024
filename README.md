@@ -48,7 +48,7 @@ visualizaciones/: Capturas de pantalla del reporte final.
 
 Data/:Base de datos cruda del censo económico realizado por el INEGI en 2024. 
 
-Sobre mí
-Soy un economista especializado en el análisis de datos del sector público mexicano. Actualmente en transición hacia el Análisis de Datos para su uso en proyectos relacoinados con Inteligencia Artificial. Mi enfoque combina el rigor estadístico con la capacidad de transformar datos técnicos en decisiones estratégicas de negocio.
-Mi contacto es fco.aldamagmail.com
+Armando Aldama-Nalda
+Economista especializado en el análisis de datos del sector público mexicano. Actualmente en transición hacia el Análisis de Datos para su uso en proyectos relacoinados con Inteligencia Artificial. Mi enfoque combina el rigor estadístico con la capacidad de transformar datos técnicos en decisiones estratégicas de negocio.
+Mi contacto es fco.aldama@gmail.com
 
