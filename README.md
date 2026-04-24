@@ -2,11 +2,13 @@ Análisis de la Productividad y Eficiencia: Sector Autotransporte de Carga (Méx
 
 
 I. Introducción
+
 El autotransporte de carga es uno de los sectore clave para el crecimiento sostenido de economía mexicana, representando aproximadamente 4% del PIB nacional de acuerdo con datos de 2025. Sin embargo, es un sector fragmentado donde conviven desde micro-empresas familiares hasta grandes consorcios logísticos.
 
 Este proyecto nace con el objetivo de realizar un análisis de los principales indicadores de eficiencia económica del sector. Mediante el procesamiento de los datos de los Censos Económicos 2024 (INEGI), diseñé una metodología para segmentar a más de 30,000 unidades económicas y entender quiénes son realmente productivos y dónde se concentran sus costos.
 
 II. Metodología: 
+
 -Para este análisis, construí un ecosistema de datos que garantiza limpieza y escalabilidad:
 
   -SQL Server: Procesamiento ETL, ingeniería de variables y lógica de segmentación avanzada.
@@ -25,7 +27,8 @@ Limpieza de Datos (Data Wrangling). Los datos crudos del censo venían con estru
 
   -Aislar el código SCIAN 484 (Autotransporte de carga).
 
-IV. INSIGHTS
+IV. Insights
+
 -El Quintil 5 (el 20% más productivo) no siempre son las empresas más grandes, sino las que mejor optimizan sus activos.
 
 -El "Dolor" del Combustible: El análisis reveló que el gasto en combustibles absorbe el 25.2% de los ingresos totales del sector, siendo el principal cuello de botella para el crecimiento.
@@ -34,10 +37,12 @@ IV. INSIGHTS
 
 -Concentración de Activos: 77% de las empresas grandes (Estrato 4) logran situarse en el Quintil más alto de productividad, confirmando que la economía de escala es vital en este rubro.
 
-Visualización de KPIs
+V. Visualización de KPIs
+
 <img width="1308" height="805" alt="KPIs_2" src="https://github.com/user-attachments/assets/383e5460-695d-41ee-9cfe-0a9bc6f8a7a2" />
 
-Contenido del Repositorio
+VI. Contenido del Repositorio
+
 scripts_sql/: Contiene el código para la creación de vistas y lógica de quintiles.
 
 visualizaciones/: Capturas de pantalla del reporte final.
