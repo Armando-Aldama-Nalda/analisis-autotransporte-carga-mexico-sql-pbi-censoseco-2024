@@ -17,7 +17,7 @@ II. Metodología:
 
   -En lugar de comparar empresas por número de empleados, las clasifiqué por el valor de la producción anual de las  empresas. Usé Window Functions (SUM() OVER) para dividir el sector en 5 grupos iguales (quintiles).
 
-III. Desafíos Técnicos y Soluciones1. 
+III. Desafíos Técnicos y Soluciones. 
 
 Limpieza de Datos (Data Wrangling). Los datos crudos del censo venían con estructuras jerárquicas y filas de totales que ensuciaban el análisis. Implementé Vistas en SQL para:
 
