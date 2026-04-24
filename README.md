@@ -40,13 +40,14 @@ IV. INSIGHTS
 Visualización de KPIs
 <img width="1308" height="805" alt="KPIs_2" src="https://github.com/user-attachments/assets/383e5460-695d-41ee-9cfe-0a9bc6f8a7a2" />
 
-
-📂 Contenido del Repositorio
+Contenido del Repositorio
 scripts_sql/: Contiene el código para la creación de vistas y lógica de quintiles.
 
 visualizaciones/: Capturas de pantalla del reporte final.
 
 Data/:Base de datos cruda del censo económico realizado por el INEGI en 2024. 
+
+Fuente: https://www.inegi.org.mx/programas/ce/2024/#datos_abiertos
 
 Armando Aldama-Nalda
 Economista especializado en el análisis de datos del sector público mexicano. Actualmente en transición hacia el Análisis de Datos para su uso en proyectos relacoinados con Inteligencia Artificial. Mi enfoque combina el rigor estadístico con la capacidad de transformar datos técnicos en decisiones estratégicas de negocio.
